@@ -1,21 +1,75 @@
 /* CSS files add styling rules to your content */
-
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
+  margin: 0em;
+  background-repeat: no-repeat;
+  background-attachment: ;
+  background-size: 1670px 857px;body {
+  }
 }
+.heading {
+float: center;
+font-style: italic;
 
-h1 {
+
+}
+h1{
+
+}
+#text {
   font-style: italic;
-  color: #373fff;
+  color:black;
+  text-align:left;
+  padding: 185px;
+  margin-top: 190px;
 }
+h3{
 
-h3 {
-  font-style: italic;
-  color: #0000FF;
 }
-
-h4 {
-  font-style: bold;
-  color: #ff0000;
+.navbar {
+  overflow: hidden;
+  background-color:black;
+}
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {float: left; 
+  overflow: hidden;}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+footer.page-footer {
+  height: 210px;
+  padding-top: 60px;
+  margin:0em;
+  text-align: right;
 }
