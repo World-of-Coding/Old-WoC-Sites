@@ -22,7 +22,7 @@ Live Demo of the sites -
 
 # Gamma
 
-* After RZ took this site "ransom" we started work on a new site which was going to be the next official v1 release. (That did not work out and such it went into gamma testing).
+* After RZ took the beta site "ransom" we started work on a new site which was going to be the next official v1 release. (That did not work out and such it went into gamma testing).
 * This site was created by Jake, Nick2020, Deity.
 * Old Domain N/A - (This was only hosted on repl/glitch and most domain pages were deleted for it)
 
