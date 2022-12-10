@@ -44,3 +44,10 @@ Current WOC Site -
 * https://world-of-coding.tech/
 * https://www.worldofcoding.tech/
 * https://www.world-of-coding.tech/
+
+# What are Arch sites?
+* Arch sites are sites that dont fit into the area of old verisions or current versisions but are still related to the domain/site in a meaningful way.
+
+Arch sites - 
+* https://WoC-pending-URL.nick20201.repl.co
+* 
