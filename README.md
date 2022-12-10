@@ -49,5 +49,5 @@ Current WOC Site -
 * Arch sites are sites that dont fit into the area of old verisions or current versisions but are still related to the domain/site in a meaningful way.
 
 Arch sites - 
-* https://WoC-pending-URL.nick20201.repl.co
-* 
+* https://WoC-pending-URL.nick20201.repl.co - Side Arch URL
+* https://WoC-main-Arch.nick20201.repl.co - Main Arch
