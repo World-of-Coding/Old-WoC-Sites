@@ -11,7 +11,7 @@ channel = "stable-21_11"
 [languages.html]
 pattern = "**/*.html"
   [languages.html.languageServer]
-start = "vscode-html-language-server --stdio"
+  start = ["vscode-html-language-server", "--stdio"]
   [languages.html.languageServer.initializationOptions]
   provideFormatter = true
   [languages.html.languageServer.configuration.html]
@@ -54,12 +54,14 @@ start = "vscode-html-language-server --stdio"
 [languages.javascript]
 pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.mjs,*.cjs}"
   [languages.javascript.languageServer]
-start = "typescript-language-server --stdio"
+  start = ["typescript-language-server", "--stdio"]
 
+# TODO autocomplete relies on snippet support, which we don't advertise to LSP servers.
+# For now CSS autocomplete will use built-in codemirror, which is not perfect but good enough
 [languages.css]
 pattern = "**/{*.less,*.scss,*.css}"
   [languages.css.languageServer]
-start = "vscode-css-language-server --stdio"
+    start = ["vscode-css-language-server", "--stdio"]
     [languages.css.languageServer.configuration.css]
       customData = [ ]
       validate = true
@@ -174,6 +176,3 @@ start = "vscode-css-language-server --stdio"
       unknownVendorSpecificProperties = "ignore" # Unknown vendor specific property.
       vendorPrefix = "warning" # When using a vendor-specific prefix also include the standard property
       zeroUnits = "ignore" # No unit for zero needed"
-
-[gitHubImport]
-requiredFiles = [".replit", "replit.nix", ".config"]
