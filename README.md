@@ -40,10 +40,7 @@ Live Demo of the sites -
 * Check out http://web.archive.org/ to see some of these sites old updates before they even were Alpha, Beta, Gamma or v1!
 
 Current WOC Site - 
-* https://worldofcoding.tech/
 * https://world-of-coding.tech/
-* https://www.worldofcoding.tech/
-* https://www.world-of-coding.tech/
 
 # What are Arch sites?
 * Arch sites are sites that dont fit into the area of old verisions or current versisions but are still related to the domain/site in a meaningful way.
